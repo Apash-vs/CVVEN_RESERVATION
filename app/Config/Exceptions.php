@@ -23,7 +23,8 @@ class Exceptions extends BaseConfig
      * Default: true
      */
     public bool $log = true;
-
+    public bool $displayErrors = true;
+    
     /**
      * --------------------------------------------------------------------------
      * DO NOT LOG STATUS CODES
